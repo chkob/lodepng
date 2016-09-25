@@ -2,7 +2,8 @@
 //
 
 #include "stdafx.h"
-#include "lodepngdll.h"
+
+#include <lodepngdll.h>
 
 
 //// This is an example of an exported variable
@@ -14,9 +15,9 @@
 //    return 42;
 //}
 //
-//// This is the constructor of a class that has been exported.
-//// see lodepngdll.h for the class definition
-//Clodepngdll::Clodepngdll()
-//{
-//    return;
-//}
+// This is the constructor of a class that has been exported.
+// see lodepngdll.h for the class definition
+CLodePngDll::CLodePngDll()
+{
+    return;
+}

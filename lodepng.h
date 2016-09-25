@@ -23,6 +23,10 @@ freely, subject to the following restrictions:
     distribution.
 */
 
+#if defined(_MSC_VER)
+#pragma once
+#endif
+
 #ifndef LODEPNG_H
 #define LODEPNG_H
 
